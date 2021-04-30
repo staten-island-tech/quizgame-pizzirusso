@@ -89,3 +89,10 @@ var quiz = new Quiz(questions);
 
 // display quiz
 populate();
+
+var questions = [
+  new Question("How many sides does a hexagon have?", ["4", "6","8", "10"], "6"),
+  new Question("How many letters are in the English alphabet?", ["28", "32", "25", "26"], "28"),
+  new Question("What is the name of our galaxy?", ["Canopus", "Sirius","The Nebula", "The Milkyway"], "The Milkyway"),
+  new Question("What is the capitol of the United States of America", ["Philadelphia", "New York City", "Washington D.C", "Chicago"], "Washington D.C"),
+  new Question("How many minutes are in an hour?", ["60", "360", "1", "24"], "60")
